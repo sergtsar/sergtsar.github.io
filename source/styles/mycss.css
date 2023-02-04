@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    font-family: Rubik, Roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: rgb(55, 55, 55);
+}
+
+.nav-link {
+    color: rgb(155, 155, 155);
+}
+
+.navbar {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(216, 216, 216);
+
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(54, 54, 54);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    border-style: none;
+}
+
+.sidebar {
+    color: rgb(55, 55, 55);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(216, 216, 216);
+}
+
+.card,
+.card-img-top {
+    border-radius: 10px;
+}
+
+.card-text {
+    color: rgb(155, 155, 155);
+}
+
+.btn-primary {
+    border-radius: 10px;
+    color: rgb(22, 108, 220);
+    background: none;
+    border-style: solid;
+}
+
+.slide-text,
+.footer-text {
+    margin: auto auto;
+    padding-top: 2rem;
+}
+
+footer {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(216, 216, 216);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-indicators {
+    position: relative ;
+}
+
+.call-anim {
+    animation: call 4s ease-in-out 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
